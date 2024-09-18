@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridarea</title>
+     <style>
+        .m{
+            height: 80vh;
+            width: 50vw;
+            border: 2px solid;
+            background-color: white;
+            display: grid;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area1 area5 area6'
+            'area7 area5 area9';
+            padding: 20px;
+          gap: 10px;
+        }
+        .i{
+            /* height: 100px;
+            width: 100px; */
+        }
+        .i1{
+
+            grid-area: area1;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQP3CGwBoWC0lr6JB_FPC1zPEGTGJdsPwxQ&s);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 2px solid;
+            
+        }
+        .i2{
+            grid-area: area2;
+            background-color: palegreen;
+            background-image: url(https://qph.cf2.quoracdn.net/main-qimg-967bf95d923888aebdfb66248b33db75-pjlq);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid;
+        }
+        .i3{
+            grid-area: area3;
+            background-color: palevioletred;
+            background-position: center;
+            background-size: cover;
+            border: 2px solid;
+            background-image: url(https://qph.cf2.quoracdn.net/main-qimg-56c37b6b31eb2d0bc93967d1e7c67927-lq);
+        }
+        /* .i4{
+            grid-area: area4;
+            background-color: peru;
+        } */
+        .i5{
+            grid-area: area5;
+            background-color: pink;
+            background-image: url(https://i.redd.it/41y59bffm0od1.jpeg);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid;
+        }
+        .i6{
+            grid-area: area6;
+            background-color: darkgray;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe_WjzXcuNhuhj3nRei9FKELzK8Of-RuVdeg&s);
+            background-position: center;
+            background-size: cover;
+        }
+        .i7{
+            grid-area: area7;
+            background-color: darksalmon;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnYyEcmpJuFuhEyh7BohA30OqVRKtdIWfc6w&s);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid;
+        }
+        /* .i8{
+            grid-area: area8;
+            background-color: darksalmon;
+        } */
+        .i9{
+            grid-area: area9;
+            background-color: darksalmon;
+            background-image: url(https://m.media-amazon.com/images/I/715mWsFACyL._AC_UF1000,1000_QL80_.jpg);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid;
+        }
+        div{
+            background-color: rgb(200, 251, 251);
+            border: 2px solid;
+            gap: 5px;
+        }
+     </style>
+</head>
+<body>
+    <div><h1>grid area</h1></div><br>
+    <div class="m">
+    <div class="i i1"></div>
+    <div class="i i2"></div>
+    <div class="i i3"></div>
+    <!-- <div class="i i4"></div> -->
+    <div class="i i5"></div>
+    <div class="i i6"></div>
+    <div class="i i7"></div>
+    <!-- <div class="i i8"></div> -->
+    <div class="i i9"></div>
+    </div>
+</body>
+</html>
